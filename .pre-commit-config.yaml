@@ -1,11 +1,4 @@
 repos:
-  - repo: local
-    hooks:
-      - id: set_env_vars
-        name: set_env_vars
-        entry: ./set_env_vars.sh
-        language: system
-        pass_filenames: false # This makes it a lot faster
   - repo: https://github.com/astral-sh/uv-pre-commit
     rev: 0.5.11
     hooks:
