@@ -3,4 +3,5 @@ repos:
   rev: 0.5.11
   hooks:
     - id: uv-lock
-      args: ["--check"]
+      entry: ./set_env_vars.sh
+      additional_dependencies: ['hatchling']
