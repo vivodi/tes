@@ -2,7 +2,7 @@
 name = "myproject"
 requires-python = ">=3.11"
 dynamic=["version"]
-dependencies=["pre-commit"]
+dependencies=["pre-commit","flexget"]
 
 [tool.hatch.version]
 path = "myproject/version.py"
