@@ -3,3 +3,4 @@ repos:
   rev: 0.5.11
   hooks:
     - id: uv-lock
+      args: ["--locked"]
