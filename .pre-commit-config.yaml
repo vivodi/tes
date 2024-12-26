@@ -6,6 +6,7 @@ repos:
         entry: uv pip list
         language: system
         pass_filenames: false # This makes it a lot faster
+        additional_dependencies: ['uv']
   - repo: https://github.com/astral-sh/uv-pre-commit
     rev: 0.5.11
     hooks:
