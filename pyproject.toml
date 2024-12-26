@@ -2,7 +2,7 @@
 name = "myproject"
 requires-python = ">=3.12"
 dynamic=["version"]
-dependencies=["aiohttp"]
+dependencies=["pre-commit"]
 
 [tool.hatch.version]
 path = "myproject/version.py"
