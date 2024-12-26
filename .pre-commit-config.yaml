@@ -3,7 +3,7 @@ repos:
     hooks:
       - id: set_env_vars
         name: set_env_vars
-        entry: flexget run
+        entry: uv pip list
         language: system
         pass_filenames: false # This makes it a lot faster
   - repo: https://github.com/astral-sh/uv-pre-commit
