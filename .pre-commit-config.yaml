@@ -10,4 +10,4 @@ repos:
     rev: 0.5.11
     hooks:
       - id: uv-lock
-        entry: env UV_PROJECT_ENVIRONMENT=$(printenv VIRTUAL_ENV)
+#        entry: env UV_PROJECT_ENVIRONMENT=$(printenv VIRTUAL_ENV)
